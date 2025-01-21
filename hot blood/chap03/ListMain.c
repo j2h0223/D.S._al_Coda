@@ -30,8 +30,9 @@ int main(void){
             LRemove(&list);
 
         while(LNext(&list, &data)){
-            if (data == 22)
+            if (data == 22){
                 LRemove(&list);
+            }
         }
     }
 

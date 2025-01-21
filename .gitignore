@@ -229,3 +229,7 @@ Temporary Items
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,java,intellij,c
 hot blood/chap03/main
+.vscode/launch.json
+.vscode/tasks.json
+hot blood/chap02/HanoiTowerMove_
+hot blood/chap03/ListMain

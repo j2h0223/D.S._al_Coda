@@ -4,7 +4,7 @@
 #define TRUE	1
 #define FALSE	0
 
-/*** ArrayListÀÇ Á¤ÀÇ ****/
+/*** ArrayListï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ****/
 #define LIST_LEN	100
 typedef int LData;
 
@@ -16,7 +16,7 @@ typedef struct __ArrayList
 } ArrayList;
 
 
-/*** ArrayList¿Í °ü·ÃµÈ ¿¬»êµé ****/
+/*** ArrayListï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ****/
 typedef ArrayList List;
 
 void ListInit(List * plist);
