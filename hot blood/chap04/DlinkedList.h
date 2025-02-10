@@ -21,13 +21,14 @@ typedef struct _linkedList{
 typedef LinkedList List;
 
 void ListInit(List * plist);
-void Linsert(List * plist, LData data);
+void LInsert(List * plist, LData data);
 
 int LFirst(List * plist, LData * pdata);
 int LNext(List * plist, LData * pdata);
 
 LData LRemove(List * plist);
-LData LCount(List * plist);
+
+int LCount(List * plist);
 
 void SetSortRule(List * plist, LData (*comp)(LData d1, LData d2));
 
